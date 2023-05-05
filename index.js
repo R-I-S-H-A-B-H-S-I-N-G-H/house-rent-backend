@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.listen(PORT, () => console.log(`Listining at port ${PORT}`));
 
 app.get("/", async (req, res) => {
-	res.json("Welcome to the Blogs api 🔥");
+	res.json("Welcome to the House Rent api 🔥");
 });
 
 async function createHouseData(data) {
